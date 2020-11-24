@@ -3,6 +3,8 @@ import numpy as np
 import hparams as hp
 from dsp import *
 
+#### module used from https://github.com/fatchord/WaveRNN ############
+
 def convert_file(wave):
     y = load_wav(wave)
     peak = np.abs(y).max()
@@ -15,6 +17,8 @@ def convert_file(wave):
         quant = float_2_label(y, bits=16)
 
     return mel.astype(np.float32), quant.astype(np.int64)
+
+#### module used from https://github.com/fatchord/WaveRNN ############
 
 
 def process_wav(data_dir, wavefile):

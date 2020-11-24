@@ -18,6 +18,8 @@ def convert_file(wave):
 
     return mel.astype(np.float32), quant.astype(np.int64)
 
+#########################################################################################################
+
 ##### Type: Acquisition_CodeBorrowed Source: https://github.com/fatchord/WaveRNN ############
 
 
@@ -27,6 +29,7 @@ def process_wav(data_dir, wavefile):
     np.save(data_dir + 'mol/' + wav_id+ '.npy', m, allow_pickle=False)
     #np.save(paths.quant/f'{wav_id}.npy', x, allow_pickle=False)
     return wav_id, m.shape[-1]
+#########################################################################################################
 
 
 data_path = '/Users/sirisha/Documents/Projects/PhD_Projects/Interspeech2021/Project_TWlstm_vs_fb/Data/LJspeech/'

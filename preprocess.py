@@ -18,7 +18,7 @@ def convert_file(wave):
 
     return mel.astype(np.float32), quant.astype(np.int64)
 
-#### module used from https://github.com/fatchord/WaveRNN ############
+##### Type: Acquisition_CodeBorrowed Source: https://github.com/fatchord/WaveRNN ############
 
 
 def process_wav(data_dir, wavefile):

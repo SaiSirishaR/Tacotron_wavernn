@@ -1,0 +1,12 @@
+peak_norm = False
+voc_mode = 'MOL'  
+bits = 9
+mu_law = True
+sample_rate = 22050
+n_fft = 2048
+hop_length = 275
+win_length = 1100
+num_mels = 80
+fmin = 40
+min_level_db = -100
+ref_level_db = 20

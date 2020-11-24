@@ -3,7 +3,7 @@ import numpy as np
 import hparams as hp
 from dsp import *
 
-#### module used from https://github.com/fatchord/WaveRNN ############
+##### Type: Acquisition_CodeBorrowed Source: https://github.com/fatchord/WaveRNN ############
 
 def convert_file(wave):
     y = load_wav(wave)

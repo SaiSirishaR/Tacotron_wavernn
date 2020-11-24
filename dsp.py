@@ -2,6 +2,8 @@ import hparams as hp
 import librosa
 import numpy as np
 
+#### modules used from https://github.com/fatchord/WaveRNN ############
+
 def label_2_float(x, bits):
     return 2 * x / (2**bits - 1.) - 1.
 

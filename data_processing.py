@@ -5,10 +5,12 @@ from dsp import *
 import pickle
 
 
-##### Type: Acquisition_CodeBorrowed Source: https://github.com/fatchord/WaveRNN ############
 
 
 ######## modules to process wavefiles #############
+
+# Type: Acquisition_CodeBorrowed Source: https://github.com/fatchord/WaveRNN 
+
 
 def convert_file(wave):
     y = load_wav(wave)
@@ -35,6 +37,7 @@ def process_wav(data_dir, wavefile):
 
 
 ######## modules to process text #############
+
 
 def process_text(text_path, data_dir):
            

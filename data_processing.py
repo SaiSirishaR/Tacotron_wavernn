@@ -34,6 +34,8 @@ def process_wav(data_dir, wavefile):
 
 ######## modules to process text #############
 
+#TODO: Need to modify this module based on the dataset
+
 def process_text(text_path, data_dir):
            
            text_dict ={}

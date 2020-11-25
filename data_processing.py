@@ -4,6 +4,10 @@ import hparams as hp
 from dsp import *
 import pickle
 
+
+##### Type: Acquisition_CodeBorrowed Source: https://github.com/fatchord/WaveRNN ############
+
+
 ######## modules to process wavefiles #############
 
 def convert_file(wave):
@@ -54,7 +58,7 @@ def process_text(text_path, data_dir):
 #### Load data ##########
 
 
-data_path = '/Users/sirisha/Documents/Projects/PhD_Projects/Interspeech2021/Project_TWlstm_vs_fb/Data/LJspeech/LJSpeech-1.1/'
+data_path = 'path/to/data directory'
 wave_path = data_path + 'wavs/'
 wav_files = sorted(os.listdir(os.chdir(wave_path)))
 

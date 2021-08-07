@@ -4,16 +4,16 @@ Here, I train a multi-speaker TTS. I use WaveRNN vocoder for speech generation.
 
 The following packages are required to run this code snippet.
 
-librosa
-pytorch
-numpy
+librosa.
+pytorch.
+numpy.
 
 **August 7, 2021**
 
 1. Modify the data split line in the function process_text
 
-   split = line.split('|') --> for LJspeech
-   split = line.split('/n') --> for arctic
+   split = line.split('|') --> for LJspeech.     
+   split = line.split('/n') --> for arctic.
 
 2. modify the sampling rate in hparams file (16kHz for arctic and 22050 for LJspeech)
 

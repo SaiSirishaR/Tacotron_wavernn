@@ -5,7 +5,6 @@ usage: python data_processing_autopilot.py --wav_path <path to wave files> --tex
 
 """
 
-
 import os
 import numpy as np
 import hparams as hp

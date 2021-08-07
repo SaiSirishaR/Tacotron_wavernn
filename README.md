@@ -8,6 +8,8 @@ librosa
 pytorch
 numpy
 
+**August 7, 2021**
+
 1. Modify the data split line in the function process_text
 
    split = line.split('|') --> for LJspeech
